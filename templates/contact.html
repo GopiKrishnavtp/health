@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Custom CSS for Neon Effect -->
+    <style>
+        body {
+            background-color: #000; /* Black background for contrast */
+            color: #fff; /* Default text color set to white */
+        }
+
+        h2, h4 {
+            color: #fff; /* White text color */
+            text-shadow:
+                0 0 5px #fff,   /* White glow */
+                0 0 10px #fff,  /* White glow */
+                0 0 15px #ff00ff, /* Pink glow */
+                0 0 20px #ff00ff, /* Pink glow */
+                0 0 25px #ff00ff; /* Pink glow */
+        }
+
+        p {
+            color: #fff; /* White text color */
+        }
+
+        .btn-primary {
+            background-color: #ff00ff; /* Neon pink background */
+            border-color: #ff00ff; /* Neon pink border */
+        }
+
+        .btn-primary:hover {
+            background-color: #e600e6; /* Darker pink on hover */
+            border-color: #e600e6; /* Darker pink border on hover */
+        }
+
+        .card {
+            background-color: #1a1a1a; /* Dark grey background for card */
+            border: none; /* Remove card border */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+                <!-- Contact Card -->
+                <div class="card shadow-lg p-4 rounded-4">
+                    <h2 class="text-center mb-4"><i class="bi bi-envelope-at"></i> Contact Us</h2>
+                    <p class="text-center text-muted">Have questions? Our team is here to assist you!</p>
+
+                    <!-- Customer Support -->
+                    <div class="mt-4">
+                        <h4><i class="bi bi-headset"></i> Customer Support</h4>
+                        <p>Our dedicated support team is available to help with any inquiries. Whether it's a technical question, feedback, or general assistance, we're just a message away.</p>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="mt-4">
+                        <h4><i class="bi bi-telephone"></i> Get in Touch</h4>
+                        <p>Email: <a href="mailto:gkgopi5589@gmail.com" class="text-primary">gkgopi5589@gmail.com</a></p>
+                        <p>Phone: <a href="tel:+919346023003" class="text-primary">+91 93460 23003</a></p>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="mt-4">
+                        <h4><i class="bi bi-share"></i> Stay Connected</h4>
+                        <p>Follow us on social media for updates:</p>
+                        <a href="#" class="btn btn-primary btn-sm me-2"><i class="bi bi-facebook"></i> Facebook</a>
+                        <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-instagram"></i> Instagram</a>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="mt-4">
+                        <h4><i class="bi bi-geo-alt"></i> Location</h4>
+                        <p>Miyapur, Hyderabad, India</p>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="mt-4">
+                        <h4><i class="bi bi-chat-left-text"></i> Send Us a Message</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Your Name</label>
+                                <input type="text" class="form-control" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Your Email</label>
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="3" placeholder="Write your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success"><i class="bi bi-send"></i> Send Message</button>
+                        </form>
+                    </div>
+
+                </div> <!-- End of Card -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
